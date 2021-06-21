@@ -275,6 +275,40 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Carlos Mauricio Tovar Artunduaga',
+        cargo: 'Experto temático',
+        centro: 'Centro de Servicios y Gestión Empresarial Regional Antioquia',
+      },
+      {
+        nombre: 'Jorge Eliécer Loaiza Muñoz',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Diseño e Innovación Tecnológica Industrial Regional Antioquia',
+      },
+      {
+        nombre: 'Claudia López Arboleda',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de Teleinformática y Producción Industrial Regional Cauca',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -289,28 +323,37 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Sandra Carolina Durán López',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: [
+          'Adriana Marcela Suárez Eljure',
+          'Gilberto Junior Rodríguez Rodríguez',
+          'Jessica Moreno Realpe',
+          'Lady Adriana Ariza Luque',
+          'Laura Gisselle Murcia Pardo',
+          'María Carolina Tamayo López',
+          'Víctor Raúl Cárdenas Cáceres',
+          'Wilson Andrés Arenales Cáceres',
+          'Zuleidy Maria Ruiz Torres',
+        ],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jhon Jairo Urueta Alvarez',
+        cargo: 'Desarrollo Front-End',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
     gestoresRepositorio: [
