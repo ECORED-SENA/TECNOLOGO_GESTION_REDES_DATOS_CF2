@@ -31,6 +31,9 @@
       img(src='@/assets/curso/img3.svg', style="width: 1000px; margin: auto;")
     p.mb-5 El medio es la conexión que permite a dispositivos relacionarse entre sí. A su vez se define la información como la unidad que se intercambia entre dispositivos de gestión, acceso, comunicación y de usuario final como es el texto, imágenes, música, hipertexto, video, entre otros. Por otra parte, los recursos hacen referencia a todo aquello que un dispositivo pide a la red, se identifica y accede directamente. Estos recursos pueden ser archivos compartidos en otros dispositivos de la red, un documento a imprimir en una impresora compartida, un servicio a consumir, información, espacio en disco duro, tiempo de procesamiento, etc.
     .h4.mb-5 A continuación se definen los dispositivos y elementos más importantes en las redes de datos:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Rr8POxBrOlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     TabsB.color-acento-contenido
       .p-4.p-md-5(titulo="Servidor" :icono="require('@/assets/curso/img4.svg')").bg-color3
         .row
