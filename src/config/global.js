@@ -162,7 +162,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Cisco Networking Academy. (2016) Introducción a las redes IntroNet6.',
+        'Cisco Networking Academy. (2016) Introducción a las redes IntroNet6. Curso IntroNet6_es/index.html',
     },
     {
       referencia: 'Corona, A. E. (2004). Protocolos tcp/ip de internet.',
@@ -185,7 +185,7 @@ export default {
     },
     {
       referencia:
-        'Stallings, W., Stallings, W., Tanenbaum, A., Fall, K. R., y Stevens, W. R. (2000). Comunicaciones y Redes de Computadores, 7ª Edición. Pearson Prentice-Hall',
+        'Stallings, W., Stallings, W., Tanenbaum, A., Fall, K. R., y Stevens, W. R. (2000). Comunicaciones y Redes de Computadores, 7ª Edición. Pearson Prentice-Hall.',
     },
   ],
   glosario: [
@@ -196,7 +196,7 @@ export default {
     {
       termino: 'Ancho de banda',
       significado:
-        'capacidad de transmisión de un dispositivo o red determinado',
+        'capacidad de transmisión de un dispositivo o red determinado.',
     },
     {
       termino: 'Bit (dígito binario)',
@@ -210,7 +210,7 @@ export default {
     {
       termino: 'DHCP (Protocolo de configuración dinámica de host)',
       significado:
-        'protocolo que permite a un dispositivo de una red, conocido como servidor DHCP, asigna direcciones IP temporales a otros dispositivos de red y normalmente equipos.',
+        'protocolo que permite a un dispositivo de una red, conocido como servidor DHCP, asignar direcciones IP temporales a otros dispositivos de red y normalmente equipos.',
     },
     {
       termino: 'Dirección IP',
@@ -240,10 +240,9 @@ export default {
   complementario: [
     {
       texto:
-        'Joskowicz, J. (2013). Cableado Estructurado. Universidad de la República Montevideo, URUGUAY',
-      tipo: 'Pdf',
-      link:
-        'https://iie.fing.edu.uy/ense/asign/ccu/material/docs/Cableado%20Estructurado.pdf',
+        'Joskowicz, J. (2013). Cableado Estructurado. Universidad de la República Montevideo, URUGUAY.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo1.pdf',
     },
     {
       texto:
@@ -254,7 +253,7 @@ export default {
     },
     {
       texto:
-        'Redes Informáticas - Nociones fundamentales (7ª edición) - (Protocolos, Arquitecturas, Redes inalámbricas, Virtualización, Seguridad, IPv6...) Editorial ENI.',
+        'Redes Informáticas - Nociones fundamentales (7ª edición) - (Protocolos, Arquitecturas, Redes inalámbricas, Virtualización, Seguridad, IPv6...). Editorial ENI.',
       tipo: 'E-libro',
       link:
         'https://www.ediciones-eni.com/open/mediabook.aspx?idR=9a76703d59b0fd180004f0cd38f2c537',
@@ -352,7 +351,7 @@ export default {
       },
       {
         nombre: 'Jhon Jairo Urueta Alvarez',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],

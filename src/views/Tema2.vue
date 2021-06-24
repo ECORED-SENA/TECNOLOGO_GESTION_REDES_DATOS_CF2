@@ -10,13 +10,15 @@
     #t_2_1
     .titulo-segundo
       h2 2.1 Tecnología
+    p De acuerdo con Cisco (2016):
+    p.mb-5.ms-4 Nos encontramos en un momento decisivo respecto del uso de la tecnología para extender y potenciar nuestra capacidad de comunicarnos. La globalización de Internet se ha producido más rápido de lo que cualquiera hubiera imaginado. El modo en que se producen las interacciones sociales, comerciales, políticas y personales cambia en forma continua para estar al día con la evolución de esta red global. En la próxima etapa de nuestro desarrollo los innovadores usarán Internet como punto de inicio para sus esfuerzos, creando nuevos productos y servicios diseñados específicamente para aprovechar las funcionalidades de la red. A medida que los programadores impulsen los límites de lo posible, las funcionalidades de las redes interconectadas que crean la Internet jugarán un papel cada vez más grande en el éxito de estos proyectos. (Cisco. CCNA Routing and Switching. Introduction to Networks Capítulo 1: Exploración de la red 2016).
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_2_2
     .titulo-segundo
-      h2 2.2 Conceptos básicos Networking
+      h2 2.2 Conceptos básicos de Networking
     .row.justify-content-center
       .col-lg-8.mb-5
         .cajon.color-primario.p-4
@@ -44,7 +46,7 @@
       hr
       .col-lg-10.mt-5
         h4 Direccionamiento de equipos de red
-        p.mb-5 Las direcciones binarias de 32 bits usadas para acceder a Internet se llaman direcciones de Protocolo Internet (IP) La dirección IP de un dispositivo se forma por una parte de red y una de host que representa a un dispositivo específico de una red en particular. Para que el dispositivo sepa cómo está dividida la dirección IP, se utiliza un segundo número de 32 bits llamado máscara de subred, que se conforma de números unos identifican la porción de red y por números ceros que indican el host en la red. Con la ayuda de la matemática de red al realizar una operación AND booleana entre la dirección IP 10.10.23.134 y la máscara de subred 255.0.0.0 se obtiene como resultado la dirección de red de este host.
+        p.mb-5 Las direcciones binarias de 32 bits usadas para acceder a Internet se llaman direcciones de Protocolo Internet (IP). La dirección IP de un dispositivo se forma por una parte de red y una de host que representa a un dispositivo específico de una red en particular. Para que el dispositivo sepa cómo está dividida la dirección IP, se utiliza un segundo número de 32 bits llamado máscara de subred, que se conforma de números unos que identifican la porción de red y por números ceros que indican el host en la red. Con la ayuda de la matemática de red al realizar una operación AND booleana entre la dirección IP 10.10.23.134 y la máscara de subred 255.0.0.0 se obtiene como resultado la dirección de red de este host.
         .row.justify-content-center.mb-5
           .col-lg-7
             h4 Solución:
@@ -52,7 +54,7 @@
               p.mb-0 #[span.me-4 #[b.me-3 IP 10.10.23.134]] 00001010. 00001010. 00010111. 10000110
               p.mb-0 #[span.me-1 #[b.me-3 Máscara 255.0.0.0]]	#[u 11111111. 00000000. 00000000. 00000000]
               p.mb-0 #[span.me-5 #[b.me-3 Red 10.0.0.0]] 	00001010. 00000000. 00000000. 00000000
-        p Dentro de los direccionamientos se tiene dos tipos básicos de direcciones IP que son IPv4 e IPv6, estos direccionamientos se pueden realizar también de dos formas básicas que son el direccionamiento estático y el direccionamiento DHCP o dinámico. Igualmente se encuentra el ICMP o Protocolo de mensajes de Control de Internet, que sirve de apoyo en el conjunto de protocolos de Internet, se utiliza por los routers, para enviar mensajes de error e información operativa que indica el éxito o el fracaso en la comunicación con otra dirección IP.
+        p Dentro de los direccionamientos se tiene dos tipos básicos de direcciones IP que son IPv4 e IPv6, estos direccionamientos se pueden realizar también de dos formas básicas que son el direccionamiento estático y el direccionamiento DHCP o dinámico. Igualmente se encuentra el ICMP o Protocolo de Mensajes de Control de Internet, que sirve de apoyo en el conjunto de protocolos de Internet, se utiliza por los routers, para enviar mensajes de error e información operativa que indica el éxito o el fracaso en la comunicación con otra dirección IP.
 
 
 

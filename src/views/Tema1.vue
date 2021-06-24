@@ -59,15 +59,15 @@
           .col-md-6
             figure
               img(src='@/assets/curso/img3.png', alt='Texto que describa la imagen')
-      .p-4.p-md-5(titulo="Repetidores" :icono="require('@/assets/curso/img7.svg')").bg-color3
+      .p-4.p-md-5(titulo="Repetidor" :icono="require('@/assets/curso/img7.svg')").bg-color3
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Repetidor
-            p Se trata de un dispositivo electrónico capaz de transmitir una señal recibida de bajo nivel y re transmitirla a más alto nivel, permitiendo con esto cubrir distancias largas sin que haya degradación considerable de la señal. En los inicios de la telegrafía se utilizó para regenerar las señales telegráficas.
+            p Se trata de un dispositivo electrónico capaz de transmitir una señal recibida de bajo nivel y retransmitirla a más alto nivel, permitiendo con esto cubrir distancias largas sin que haya degradación considerable de la señal. En los inicios de la telegrafía se utilizó para regenerar las señales telegráficas.
           .col-md-6
             figure
               img(src='@/assets/curso/img4.png', alt='Texto que describa la imagen')
-      .p-4.p-md-5(titulo="Routers" :icono="require('@/assets/curso/img8.svg')").bg-color3
+      .p-4.p-md-5(titulo="Router" :icono="require('@/assets/curso/img8.svg')").bg-color3
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Router
@@ -95,7 +95,7 @@
         .row
           .col-12
             h4 Protocolo
-            p.mb-5 Se trata del medio físico utilizado para la conexión de los dispositivos hacia la red en la cual solicitarán los servicios dependiendo de los requerimientos de longitud, velocidad entre otros.
+            p.mb-5 Es el elemento software de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red.
             .row.justify-content-center
               .col-lg-8
                 figure
@@ -104,12 +104,17 @@
     #t_1_3
     .titulo-segundo
       h2 1.3 Medios de transmisión
-    p.mb-5 Son los caminos por los cuales viaja la información o los datos. Estos medios según como como conducen las señales se clasifican en dos tipos:
+    p.mb-5 Son los caminos por los cuales viaja la información o los datos. Estos medios según como conducen las señales se clasifican en dos tipos:
+    .row.bg-color3.p-4
+      .col-lg-4
+        p.mt-4 #[b Medios de transmisión guiados:] están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+      .col-lg-8.mt-4.mt-lg-0
+        SlyderC.mb-5(:datos="datosSlyder1")
     .row.bg-color3.p-4
       .col-lg-4
         p.mt-4 #[b Medios de transmisión no guiados:] son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
       .col-lg-8.mt-4.mt-lg-0
-        SlyderC.mb-5(:datos="datosSlyder")
+        SlyderC.mb-5(:datos="datosSlyder2")
     Separador
     #t_1_4
     .titulo-segundo
@@ -128,7 +133,7 @@
           p.mb-0 Capa 6: ASN.1
           p.mb-0 Capa 7: TELNET, FTP, SNMP
     Separador
-    #t_1_5
+    #t_1_5.mt-5
     .titulo-segundo
       h2 1.5 Clasificación de redes
     p.mb-5 Las redes están clasificadas de diferentes maneras teniendo en cuenta el número de dispositivos conectados y la distancia entre los mismos, el tipo de conexión o la tecnología utilizada, esta clasificación se detalla a continuación:
@@ -138,25 +143,25 @@
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul--separador
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 | Red PAN o de área personal (Personal Area Network)
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 | Red LAN o de área local (Local Area Network)
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 | Red CAN o de área de campus (Campus Area Network)
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
-                | Red MAN o de área metropolitana (Metropolitan Área Network)
+                i.fas.fa-caret-right(style="color: #37A3A5")
+                | Red MAN o de área metropolitana (Metropolitan Area Network)
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 | Red WAN o de área amplia (Wide Area Network)
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 | Red SAN o de área de almacenamiento (Storage Area Network)
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 | Red VLAN o de área local virtual (Virtual LAN)
           .col-md-6
             figure
@@ -166,7 +171,7 @@
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 span #[b Red cableada: ]
                   | es aquella red en la que se conectan mediante cable computadores y otros periféricos, se intercambian archivos, y se envían datos a otros dispositivos. La siguiente figura ilustra un ejemplo de red cableada:
           .col-md-6
@@ -177,9 +182,9 @@
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 span #[b Red inalámbrica: ]
-                  | aquella red en la cual dos o más dispositivos como computadores portátiles, agendas electrónicas, entre otros se comunican sin necesidad de una conexión por cable, con este tipo de red, los usuarios pueden estar conectados cuando se desplazan dentro de una determinada área geográfica. En la siguiente figura se observa una red de tipo inalámbrica:
+                  | aquella red en la cual dos o más dispositivos como computadores portátiles, agendas electrónicas, entre otros, se comunican sin necesidad de una conexión por cable, con este tipo de red, los usuarios pueden estar conectados cuando se desplazan dentro de una determinada área geográfica. En la siguiente figura se observa una red de tipo inalámbrica:
           .col-md-6
             figure
               img(src='@/assets/curso/img17.svg', style="width: 300px; margin: auto;")
@@ -188,10 +193,10 @@
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul--separador
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 | Es una arquitectura o relación que consiste en realizar peticiones o solicitudes a un componente de la red informática llamado servidor y que puede estar alojado en la misma red del peticionario. Este componente a su vez puede o no responder satisfactoriamente la petición y si ésta es positiva entonces se dará lugar a un servicio.
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 | Peer-to-peer que consiste en la conformación de una red de datos en la que no hay componentes dominantes o que dirijan a los demás integrantes de la malla. Es decir, cada elemento de la red tiene los mismos privilegios y restricciones que cualquier otro.
           .col-md-6
             figure
@@ -201,31 +206,31 @@
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul--separador
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 span #[b Red Punto a Punto: ]
                   | es aquella donde se conectan parejas individuales de dispositivos terminales y que necesitan routers intermedios que establezcan rutas apropiadas para el envío de la información.
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 span #[b Red Broadcast: ]
                   | es una red que transmite los datos por un solo canal de comunicación compartido por todos los dispositivos de la red, este mensaje o paquete se envía a todos los terminales  máquinas de la red, pero únicamente la destinataria puede procesarlo.
           .col-md-6
             figure
               img(src='@/assets/curso/img19.svg', style="width: 400px; margin: auto;")
-      .p-3.p-md-4(titulo="Por la direccionalidad")
+      .p-3.p-md-4(titulo="Por la direccionalidad de los datos")
         .row
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul--separador
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 span #[b Unidireccional o Simplex: ]
                   | consiste en la transmisión de información en un solo sentido donde el emisor no tiene retroalimentación alguna por parte del receptor. Un ejemplo de este tipo de transmisión son las emisoras radiales, donde el oyente necesita de un radio receptor, pero este aparato no permite enviar señal alguna.
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 span #[b Half-Duplex o Bidireccional: ]
-                  | este tipo de comunicación permite que la información se transmita en ambos sentidos, pero con la restricción de uno solo a la vez. Es decir, para que uno de los dos involucrados (emisor o receptor) pueda transmitir, el otro debe estar en silencio. También es denominado semi-duplex. Un ejemplo de este tipo de transmisión son los radios de la policía.
+                  | este tipo de comunicación permite que la información se transmita en ambos sentidos, pero con la restricción de uno solo a la vez. Es decir, para que uno de los dos involucrados (emisor o receptor) pueda transmitir, el otro debe estar en silencio. También es denominado semi-dúplex. Un ejemplo de este tipo de transmisión son los radios de la policía.
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
-                span #[b Full-Dúplex: ]
+                i.fas.fa-caret-right(style="color: #37A3A5")
+                span #[b Full-Duplex: ]
                   | la transmisión es en ambos sentidos y al mismo tiempo una misma información. Un ejemplo de este tipo de transmisión son los teléfonos móviles o celulares.
           .col-md-6
             figure
@@ -235,11 +240,11 @@
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul--separador
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 span #[b Intranet: ]
                   | red privada de usuarios que solo comparte sus recursos e información con los clientes internos, es de uso educativo, comercial entre otros.
               li 
-                i.fas.fa-angle-right(style="color: #37A3A5")
+                i.fas.fa-caret-right(style="color: #37A3A5")
                 span #[b Internet: ]
                   | red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
           .col-md-6
@@ -260,7 +265,7 @@
       div(titulo="ANILLO")
         .row
           .col-md-6.mb-4.mb-md-0
-            p Cada terminal tiene conexión con la siguiente y la primera se conecta con la última, cerrando así la conexión razón por la cual se denomina anillo.
+            p Cada terminal tiene conexión con la siguiente y la primera se conecta con la última, cerrando así la conexión, razón por la cual se denomina anillo.
           .col-md-6
             figure
               img(src='@/assets/curso/img23.svg', style="width: 450px; margin: auto;")
@@ -271,7 +276,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/img24.svg', style="width: 450px; margin: auto;")
-    p.mb-5 En cuanto a la topología lógica, está determinada por la forma cómo se accede a los datos y recursos de la red, para este caso tenemos:
+    p.mb-5 En cuanto a la topología lógica, está determinada por la forma como se accede a los datos y recursos de la red, para este caso tenemos:
     .row.justify-content-center.align-items-center.mb-4
       .col-2
         figure
@@ -293,7 +298,7 @@
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p.text-regular Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (electronic mail) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
+            p.text-regular Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (electronic mail) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4).
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 Corona (2004)
@@ -332,38 +337,38 @@
               .col-10
                 ul.lista-ul
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Simplicidad.
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Bajo costo.
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Compatibilidad.
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Direccionamiento flexible.
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Equidad.
           .col-6.col-lg-4.p-4(style="border-left: #707070 solid 1px;")
             .row.justify-content-center
               .col-8
                 ul.lista-ul
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Progreso.
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Bajo retardo.
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Estabilidad.
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Mantenimiento.
                   li 
-                    i.fas.fa-angle-right(style="color: #37A3A5")
+                    i.fas.fa-caret-right(style="color: #37A3A5")
                     | Arquitectura en capas.
         h4 La trama de Ethernet
         .row
@@ -384,7 +389,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    datosSlyder: [
+    datosSlyder1: [
       {
         titulo: 'Cable par trenzado',
         texto: '',
@@ -403,6 +408,8 @@ export default {
         imagen: require('@/assets/curso/img10.png'),
         leyendaImagen: '',
       },
+    ],
+    datosSlyder2: [
       {
         titulo: 'Ondas de radio',
         texto: '',
