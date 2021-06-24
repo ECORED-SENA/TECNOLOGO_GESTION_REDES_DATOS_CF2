@@ -19,8 +19,31 @@
     .titulo-segundo
       h2 3.1 Análisis de requerimientos de redes
     p.mb-5 Al analizar las redes se debe enfocar en los requerimientos de los usuarios, las aplicaciones y dispositivos, también se debe entender el comportamiento de la red bajo diferentes escenarios, es importante definir, determinar y describir las relaciones entre el grupo de usuarios de la red, las aplicaciones y dispositivos de red. En el proceso de análisis se debe tomar las decisiones para las etapas de arquitectura, diseño e implementación de la red.
-    figure
-      img(src='@/assets/curso/img33.svg', style="width: 1000px; margin: auto;")
+    .row.justify-content-center
+      .col-lg-10
+        .row.align-items-end
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/img33.svg', style="width: 300px; margin: auto;")
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/img38.svg', style="width: 300px; margin: auto;")
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/img39.svg', style="width: 300px; margin: auto;")
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/img40.svg', style="width: 300px; margin: auto;")
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/img41.svg', style="width: 300px; margin: auto;")
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/img42.svg', style="width: 300px; margin: auto;")
+        .row.justify-content-center
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/img43.svg', style="width: 300px; margin: auto;")
     Separador
     #t_3_2
     .titulo-segundo

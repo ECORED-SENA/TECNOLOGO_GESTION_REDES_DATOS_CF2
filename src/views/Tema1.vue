@@ -105,15 +105,11 @@
     .titulo-segundo
       h2 1.3 Medios de transmisión
     p.mb-5 Son los caminos por los cuales viaja la información o los datos. Estos medios según como como conducen las señales se clasifican en dos tipos:
-    .row.mx-0.mb-5
-      .col-12.p-4.bg-color3
-        figure
-          img(src='@/assets/curso/img13.svg', alt='Texto que describa la imagen')
-    p.mb-5 #[b Medios de transmisión no guiados:] son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
-    .row.mx-0
-      .col-12.p-4.bg-color3
-        figure
-          img(src='@/assets/curso/img14.svg', alt='Texto que describa la imagen')
+    .row.bg-color3.p-4
+      .col-lg-4
+        p.mt-4 #[b Medios de transmisión no guiados:] son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
+      .col-lg-8.mt-4.mt-lg-0
+        SlyderC.mb-5(:datos="datosSlyder")
     Separador
     #t_1_4
     .titulo-segundo
@@ -293,7 +289,7 @@
     .titulo-segundo
       h2 1.7 Modelo TCP/IP y OSI
     .row.justify-content-center.mb-5
-      .col-10.mb-5
+      .col-lg-10.mb-5
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
@@ -301,15 +297,15 @@
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 Corona (2004)
-      .col-10
+      .col-lg-10
         figure
           img(src='@/assets/curso/img27.svg', style="width: 1050px; margin: auto;")
     p Iniciando los años ochenta, la Organización Internacional para la Estandarización (ISO, International Standards Organization) desarrolla el modelo de referencia para interconectar sistemas abiertos (OSI, Open Systems Interconnect) para normalizar la manera de comunicarse entre dispositivos de la red. El modelo es importante por el gran paso hacia la interoperabilidad entre dispositivos de red.
     p.mb-5 El modelo OSI enmarca las comunicaciones de red en siete diferentes capas así:
     .row.justify-content-center.mb-5
-      .col-10
+      .col-lg-10
         figure
-          img(src='@/assets/curso/img28.svg', style="width: 1050px; margin: auto;")
+          img(src='@/assets/curso/img28.svg', style="width: 600px; margin: auto;")
     p El modelo OSI y el TCP/IP sirven como referencia para describir el proceso de comunicación de datos. El TCP/IP es usado para la suite de protocolos TCP/IP, y el OSI se utiliza para la comunicación estándar entre equipos y aplicaciones de diferentes proveedores. Ambos modelos realizan el mismo proceso, pero el modelo TCP/IP utiliza cuatro capas en lugar de siete.
     p.mb-5 En la figura siguiente se muestra una comparación entre las capas de los dos modelos.
     .row.justify-content-center.mb-5
@@ -388,7 +384,44 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Cable par trenzado',
+        texto: '',
+        imagen: require('@/assets/curso/img8.png'),
+        leyendaImagen: '',
+      },
+      {
+        titulo: 'Cable coaxial',
+        texto: '',
+        imagen: require('@/assets/curso/img9.png'),
+        leyendaImagen: '',
+      },
+      {
+        titulo: 'Cable fibra óptica',
+        texto: '',
+        imagen: require('@/assets/curso/img10.png'),
+        leyendaImagen: '',
+      },
+      {
+        titulo: 'Ondas de radio',
+        texto: '',
+        imagen: require('@/assets/curso/img11.png'),
+        leyendaImagen: '',
+      },
+      {
+        titulo: 'Microondas',
+        texto: '',
+        imagen: require('@/assets/curso/img12.png'),
+        leyendaImagen: '',
+      },
+      {
+        titulo: 'Infrarrojos',
+        texto: '',
+        imagen: require('@/assets/curso/img13.png'),
+        leyendaImagen: '',
+      },
+    ],
   }),
 }
 </script>
