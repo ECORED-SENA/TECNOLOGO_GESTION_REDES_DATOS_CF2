@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'El aprendiz se apropia de los elementos y conceptos de entrada requeridos para la elaboración de la infraestructura tecnológica como componente fundamental en el funcionamiento de cualquier organización.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.jpg'),
   },
   menuPrincipal: {
     menu: [
