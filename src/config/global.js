@@ -162,7 +162,8 @@ export default {
   referencias: [
     {
       referencia:
-        'Cisco Networking Academy. (2016) Introducción a las redes IntroNet6. Curso IntroNet6_es/index.html',
+        'Cisco Networking Academy. (2016) Introducción a las redes IntroNet6.',
+      link: 'https://cisco.cisconexion.com/course/m1-intronet6_es/',
     },
     {
       referencia: 'Corona, A. E. (2004). Protocolos tcp/ip de internet.',
@@ -328,24 +329,56 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: [
-          'Adriana Marcela Suárez Eljure',
-          'Gilberto Junior Rodríguez Rodríguez',
-          'Jessica Moreno Realpe',
-          'Lady Adriana Ariza Luque',
-          'Laura Gisselle Murcia Pardo',
-          'María Carolina Tamayo López',
-          'Víctor Raúl Cárdenas Cáceres',
-          'Wilson Andrés Arenales Cáceres',
-          'Zuleidy Maria Ruiz Torres',
-        ],
+        nombre: 'Adriana Marcela Suárez Eljure',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Jenny Paola Montillo Gélvez',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jessica Moreno Realpe',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -353,6 +386,12 @@ export default {
         nombre: 'Jhon Jairo Urueta Alvarez',
         cargo: 'Desarrollo front-end',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [

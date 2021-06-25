@@ -171,7 +171,7 @@
             i.fas.fa-caret-right(style="color: #37A3A5")
             .row
               .col-12
-                p La configuración: contiene los comandos del software IOS de Cisco utilizados para personalizar la funcionalidad de un dispositivo Cisco. (los comandos son analizados por el software IOS de Cisco). Archivos de Configuración:
+                p La configuración: contiene los comandos del software IOS de Cisco utilizados para personalizar la funcionalidad de un dispositivo Cisco. (Los comandos son analizados por el software IOS de Cisco). Archivos de Configuración:
                 p.mb-0 Archivo de configuración en ejecución.
                 p.mb-0 Archivo de configuración de inicio MODOS CISCO IOS.
           li 

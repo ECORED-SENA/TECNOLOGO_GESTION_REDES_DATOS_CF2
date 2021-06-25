@@ -7,14 +7,40 @@
       .titulo-principal__numero
         span 2
       h1 Tecnologías y conceptos básicos de Networking
+    p De acuerdo con Cisco (2016):
+    p.mb-5.ms-4 Nos encontramos en un momento decisivo respecto del uso de la tecnología para extender y potenciar nuestra capacidad de comunicarnos. La globalización de Internet se ha producido más rápido de lo que cualquiera hubiera imaginado. El modo en que se producen las interacciones sociales, comerciales, políticas y personales cambia en forma continua para estar al día con la evolución de esta red global. En la próxima etapa de nuestro desarrollo los innovadores usarán Internet como punto de inicio para sus esfuerzos, creando nuevos productos y servicios diseñados específicamente para aprovechar las funcionalidades de la red. A medida que los programadores impulsen los límites de lo posible, las funcionalidades de las redes interconectadas que crean la Internet jugarán un papel cada vez más grande en el éxito de estos proyectos. (Cisco. CCNA Routing and Switching. Introduction to Networks Capítulo 1: Exploración de la red 2016).
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/0mbw-CgmkEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    separador
     #t_2_1
     .titulo-segundo
       h2 2.1 Tecnología
-    p De acuerdo con Cisco (2016):
-    p.mb-5.ms-4 Nos encontramos en un momento decisivo respecto del uso de la tecnología para extender y potenciar nuestra capacidad de comunicarnos. La globalización de Internet se ha producido más rápido de lo que cualquiera hubiera imaginado. El modo en que se producen las interacciones sociales, comerciales, políticas y personales cambia en forma continua para estar al día con la evolución de esta red global. En la próxima etapa de nuestro desarrollo los innovadores usarán Internet como punto de inicio para sus esfuerzos, creando nuevos productos y servicios diseñados específicamente para aprovechar las funcionalidades de la red. A medida que los programadores impulsen los límites de lo posible, las funcionalidades de las redes interconectadas que crean la Internet jugarán un papel cada vez más grande en el éxito de estos proyectos. (Cisco. CCNA Routing and Switching. Introduction to Networks Capítulo 1: Exploración de la red 2016).
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p Imaginar hoy en día el mundo sin Internet, sin YouTube, Google, correo electrónico, Facebook, Netflix, juegos en línea, ni acceso a la información de actualidad. Un mundo sin sitios web para comparar precios y comprar en línea para evitar hacer fila, sin poder buscar mapas para llegar a diferentes sitios con solo un clic, entre otras cosas. Todo lo anterior es posible pues gracias a la tecnología, las redes se expandieron y transformaron paso a paso por varios años, con el fin de mejorar la calidad de vida de las personas en todo el mundo. Los recursos disponibles en internet durante un día son de gran ayuda para realizar tareas importantes y optimizar el tiempo utilizado en las mismas, estas pueden ser:
+    .row.justify-content-center
+      .col-11
+        ul.lista-ul
+          li 
+            i.fas.fa-caret-right(style="color: #37A3A5")
+            | Acceso a tareas curriculares para su entrega a tiempo.
+          li 
+            i.fas.fa-caret-right(style="color: #37A3A5")
+            | Búsqueda de rutas menos congestionadas hacia los destinos escolares, laborales observando el estado del tráfico y clima.
+          li 
+            i.fas.fa-caret-right(style="color: #37A3A5")
+            | Comunicación con familiares, amigos, compañeros de trabajo usando el correo electrónico, llamadas telefónicas a través de Internet o mensajería instantánea.
+          li 
+            i.fas.fa-caret-right(style="color: #37A3A5")
+            | Consulta de cuentas bancarias y pago de facturas de forma electrónica.
+          li 
+            i.fas.fa-caret-right(style="color: #37A3A5")
+            | Compartir fotos, videos y experiencias con amigos y conocidos en el mundo. 
+          li 
+            i.fas.fa-caret-right(style="color: #37A3A5")
+            | Juegos en línea con amigos y conocidos. 
+          li 
+            i.fas.fa-caret-right(style="color: #37A3A5")
+            | Observar videos, películas o capítulos de programas de televisión a gusto de cada persona.
     Separador
     #t_2_2
     .titulo-segundo

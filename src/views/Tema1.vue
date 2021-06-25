@@ -20,7 +20,7 @@
       h2 1.1 Historia
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/-se6VW7RiqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_1_2
     .titulo-segundo
@@ -107,7 +107,7 @@
     p.mb-5 Son los caminos por los cuales viaja la información o los datos. Estos medios según como conducen las señales se clasifican en dos tipos:
     .row.bg-color3.p-4
       .col-lg-4
-        p.mt-4 #[b Medios de transmisión guiados:] están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+        p.mt-4 #[b Medios de transmisión guiados:] están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica.
       .col-lg-8.mt-4.mt-lg-0
         SlyderC.mb-5(:datos="datosSlyder1")
     .row.bg-color3.p-4
@@ -289,7 +289,7 @@
           img(src='@/assets/curso/img26.svg', style="width: 150px; margin: auto;")
       .col-7
         p.mb-0 #[b Broadcast:] aquí cada dispositivo envía un mensaje hacia todos los demás integrantes de la red. Las operaciones se realizan por orden de llegada como si fuese Ethernet.
-    Separador
+    Separador.mb-5
     #t_1_7
     .titulo-segundo
       h2 1.7 Modelo TCP/IP y OSI
@@ -301,7 +301,7 @@
             p.text-regular Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (electronic mail) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4).
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h5.mb-0 Corona (2004)
+            .h5.mb-0 Corona (2004).
       .col-lg-10
         figure
           img(src='@/assets/curso/img27.svg', style="width: 1050px; margin: auto;")
