@@ -25,10 +25,10 @@
             | Acceso a tareas curriculares para su entrega a tiempo.
           li 
             i.fas.fa-caret-right(style="color: #37A3A5")
-            | Búsqueda de rutas menos congestionadas hacia los destinos escolares, laborales observando el estado del tráfico y clima.
+            | Búsqueda de rutas menos congestionadas hacia los destinos escolares, laborales, observando el estado del tráfico y clima.
           li 
             i.fas.fa-caret-right(style="color: #37A3A5")
-            | Comunicación con familiares, amigos, compañeros de trabajo usando el correo electrónico, llamadas telefónicas a través de Internet o mensajería instantánea.
+            | Comunicación con familiares, amigos, compañeros de trabajo, usando el correo electrónico, llamadas telefónicas a través de Internet o mensajería instantánea.
           li 
             i.fas.fa-caret-right(style="color: #37A3A5")
             | Consulta de cuentas bancarias y pago de facturas de forma electrónica.
